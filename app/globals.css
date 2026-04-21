@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-inter), system-ui, sans-serif;
+  background:
+    radial-gradient(circle at 20% 10%, rgba(130, 35, 117, 0.24), transparent 45%),
+    radial-gradient(circle at 70% 20%, rgba(255, 86, 48, 0.16), transparent 42%),
+    linear-gradient(160deg, #05050a 0%, #090918 42%, #0d0a1f 100%);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-playfair), Georgia, serif;
+}
+
+.stage-card {
+  backdrop-filter: blur(6px);
+}
